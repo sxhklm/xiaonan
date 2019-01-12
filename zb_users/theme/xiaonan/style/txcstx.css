@@ -1,0 +1,125 @@
+﻿/*
+作者：天兴工作室
+地址：http://www.txcstx.cn
+邮箱：admin@txcstx.cn
+*/
+body{margin:0px;padding:0px;color:#555555;font-size:0.875em;font-family: "Microsoft YaHei", Verdana, sans-serif;width: 100%;background-image: url(../include/wybg.png);background-repeat: repeat;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{max-width: 100%;border:none;}
+div, h1, h2, h3, h4, p, form, ul, label, input, textarea, img, span, dl, dt, dd{margin:0px;padding:0;}
+.fl{float:left;}
+.fr{float:right;}
+.clear:after{clear:both;}
+.clear{clear:both;}
+li{list-style-type: none;}
+.pagenav{width:100%;height:36px;text-align:center;padding-top: 0px;padding-right: 0;padding-bottom: 10px;padding-left: 0;}
+.pagenav span.pageid{display:inline-block;padding:0 10px;line-height:36px;font-size:14px;font-weight:700;background:#f5f5f5;color:#555;}
+.pagenav span.button{margin:0 5px;border-radius: 3px;}
+.pagenav span.button a{display:inline-block;padding:0 10px;line-height:36px;font-size:14px;font-weight:700;color:#555;background-color: #f1f1f1;border-radius: 3px;}
+.pagenav span.button a:hover{color:#fff;}
+#comments{margin-top: 15px; padding-bottom:10px;}
+#comments h3,#comments h4,#guan h3{font-size: 1.125em;line-height: 40px;font-weight: normal;margin-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #dddddd;}
+#comments h4{margin-top: 15px;}
+#comment h4 span{float:right;}
+#frmSumbit #inpName,#frmSumbit #inpEmail,#frmSumbit #inpHomePage,#frmSumbit #inpVerify{padding-left: 5px;border: 1px solid #ddd;height: 30px;padding-top: 0px;padding-right: 5%;padding-bottom: 0px;line-height: 30px;float: left;margin-right: 10px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;width: 40%;}
+.commentpost label{height:30px;overflow:hidden;float:left;line-height:30px;margin:0px;padding-top: 0px;padding-right: 10px;padding-bottom: 0px;padding-left: 10px;border-top-width: 1px;border-right-width: 0;border-bottom-width: 1px;border-left-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #dddddd;border-right-color: #dddddd;border-bottom-color: #dddddd;border-left-color: #dddddd;clear: left;}
+#txaArticle{width:96%;height:120px;border:1px solid #ddd;padding:2%;}
+#frmSumbit p{padding:0px;margin-top: 0px;margin-right: 0px;margin-bottom: 5px;margin-left: 0px;line-height: 30px;}
+#frmSumbit .button{color: #FFFFFF;height: 30px;width: 100px;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;margin-right: 15px;border-radius: 3px;}
+.msg .msgarticle .msg .msgname .dot{font-size: 1.875em;color: #f4f4f4;float: right;margin-left: 15px;font-weight: 700;}
+.msgname .dot{font-size: 1.875em;color: #edecec;float: right;margin-left: 15px;font-weight: 700;}
+.msg .msgimg{clear: left;float: left;margin-right: 15px;padding: 2px;height: 38px;width: 38px;border: 1px solid #ddd;background-color: #f1f1f1;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;}
+.msgtxt .msgarticle{line-height: 16px;padding-top: 4px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;font-size: 1em;}
+#comments .msg{font-size: 1em;border: 1px solid #dddddd;margin-top: 15px;padding: 9px;}
+.msg .msgarticle{line-height: 20px;color: #666666;font-size: 1em;}
+.msg .msgarticle .msg{background-color:#f4f4f4;border: 1px solid #eeeeee;font-size: 1em;}
+#head{display: block;width: 92%;height: 60px;padding-right: 4%;padding-left: 4%;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #9B9DA7;position:fixed;top: 0px;left: 0px;background:#FFFFFF \9; /*IE8 背景色*/ *background:#FFFFFF; /*IE7 背景色*/ _background:#FFFFFF; /*IE6 背景色*/background: rgba(255, 255, 255, 0.85);}
+#head #logo{width: 28%;height: 60px;float: left;margin-right: 5%;}
+#head #navbar{width: 60%;height: 60px;float: right;margin-right: 5%;}
+.menubtn{position: relative;color: #274a61;text-decoration: none;font-size: 0em;line-height: 0em;background-image: url(img/hamburger-active.png);background-position: 50% 50%;background-size: 25px 25px;background-repeat: no-repeat;padding: 15px;top: 5px;left: 10px;display: none;}
+#hamburgermenu{line-height: 60px;height: 60px;overflow: hidden;}
+#hamburgermenu ul li{float: left;}
+#hamburgermenu ul li a{font-size: 1em;font-weight: 700;padding-right: 20px;padding-left: 20px;display: block;padding-top: 10px;padding-bottom: 10px;height: 20px;line-height: 20px;border-radius: 3px;margin-bottom: 15px;float: left;margin-top: 10px;margin-right: 2px;}
+#hamburgermenu li a:hover,#hamburgermenu li a.on{color: #FFFFFF; }
+#navbar .rss{float: right;font-size: 1.125em;line-height: 40px;font-weight: 700;margin-right: 10px;display: none;}
+#navbar .rss a{color: #FFFFFF;}
+@media screen and (max-width: 600px){#head{width: 100%;height: 40px;padding: 0px;position: relative;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;}
+header{display: block;width: 100%;height: 40px;margin-bottom: 5px;position:fixed;left: 0px;top: 0px;}
+#head #navbar{width: 100%;height: 40px;margin-right: 0;}
+.menubtn{position: relative;color: #274a61;text-decoration: none;font-size: 0em;line-height: 0em;background-image: url(img/hamburger-active.png);background-position: 50% 50%;background-size: 25px 25px;background-repeat: no-repeat;padding: 15px;top: 5px;left: 10px;display: block;float: left;}
+.menubtn:hover, .openmenu .menubtn{color: #bdd43e; background-image: url(img/hamburger.png);}
+/** toggle menu **/
+body.openmenu{position: fixed; overflow: hidden;}
+#pgcontainer{padding: 45px 0; margin: 0;}
+.overlay{position: fixed; z-index: 99; background-color: rgba(0,0,0,0.5); bottom: 0; right: 0; left: 0;}
+.openmenu .overlay{top: 0;}
+#hamburgermenu{height: 100%;width: 0;position: fixed;top: 0;left: 0;z-index: 101;overflow: hidden; -webkit-box-shadow: 3px 0 7px rgba(0,0,0,0.55); -moz-box-shadow: 3px 0 7px rgba(0,0,0,0.55);box-shadow: 3px 0 7px rgba(0,0,0,0.55);margin-top: 40px;}
+#hamburgermenu ul{z-index: 101; overflow-y: auto; overflow-x: hidden;}
+#hamburgermenu ul li{clear: left;display: block;min-width: 100%;}
+#hamburgermenu ul li a{display: block;min-width: 100%;color: #f1f1f1;font-size: 1em;font-weight: bold;text-decoration: none;text-align: center;line-height: 10px;margin: 0px;height: 10px;padding-top: 18px;padding-right: 0px;padding-bottom: 18px;padding-left: 0px;border-radius: 0px;}
+#hamburgermenu li a:hover{color: #fff; background: #01c299;}
+#navbar .rss{float: right;font-size: 1em;line-height: 40px;margin-right: 10px;display: block;text-align: right;height: 40px;width: 40%;overflow: hidden;}
+#navbar .rss a{color: #FFFFFF;}
+#head #logo{text-align: center;width: 92%;margin-right: 2%;margin-left: 2%;padding-right: 2%;padding-left: 2%;border-radius: 5px;margin-top: 5px;margin-bottom: 0px;margin-top: 50px;background-color: #FFFFFF;}}
+#info{margin-top: 80px;width: 92%;margin-right: auto;margin-bottom: 10px;margin-left: auto;padding: 0px;}
+#info #left{width: 72%;float: left;}
+#left #post,#left #place,#left #neir,#comments{margin-bottom: 10px;border: 1px solid #9B9DA7;border-radius: 5px;padding-right: 20px;padding-left: 20px;background:#FFFFFF \9; /*IE8 背景色*/ *background:#FFFFFF; /*IE7 背景色*/ _background:#FFFFFF; /*IE6 背景色*/background: rgba(255, 255, 255, 0.95); word-wrap:break-word;}
+#left #post{padding-top: 20px;padding-bottom: 20px;}
+#left #place{line-height: 40px;height: 40px;}
+#post dd i img{width: 200px;height: 130px;float: left;margin-right: 20px;padding: 2px;border: 1px solid #dddddd;clear: left;}
+#post dt h2{font-size: 1.125em;margin-bottom: 10px;font-weight: 700;}
+#post dd{margin-bottom: 10px;}
+#post dd p{font-size: 1em;line-height: 25px;}
+#post small{font-size: 0.875em;color: #999999;white-space: nowrap;}
+#info #rigth{width: 27%;float: right;overflow: hidden;}
+#rigth dl{margin-bottom: 10px;border-radius: 3px;padding: 20px;border: 1px solid #9B9DA7;background:#FFFFFF \9; /*IE8 背景色*/
+*background:#FFFFFF; /*IE7 背景色*/_background:#FFFFFF; /*IE6 背景色*/background: rgba(255, 255, 255, 0.95);overflow: hidden;}
+#rigth dl dt{font-size: 1.25em;line-height: 30px;height: 30px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #dddddd;margin-bottom: 5px;padding-bottom: 2px;}
+#rigth dl dd ul li{border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #edecec;line-height: 20px;padding-top: 7px;padding-bottom: 7px;}
+#pinl li span{float: left;height: 40px;width: 40px;margin-right: 10px;}
+#pinl li{padding-top: 9px;padding-bottom: 9px;}
+#rigth dl #links ul li{float: left;width: 50%;}
+#rigth #divTags dd ul li{verticle-align:top;overflow: hidden;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding: 0px;display: inline-block;margin-top: 0px;margin-right: 5px;margin-bottom: 0px;margin-left: 0px;}
+#divTags dd ul li span{display: none;}
+#divTags dd ul li a{display: block;padding-top: 0px;padding-right: 6px;padding-bottom: 0px;padding-left: 6px;background-color: #8EBDDB;line-height: 30px;height: 30px;overflow: hidden;color: #FFFFFF;}
+#divTags dd ul li a:hover{color: #FFFFFF;background-color: #04a5f7;}
+#divTags .tags0{background-color: #efac82;}
+#divTags .tags1{background-color: #84c7cf;}
+#divTags .tags2{background-color: #d69899;}
+#divTags .tags3{background-color: #d59ad4;}
+#divTags .tags4{background-color: #c9b070;}
+#divTags .tags5{background-color: #b0d699;}
+#divTags .tags6{background-color: #eda29e;}
+#rigth #divLinkage dd ul li{display:inline-block; verticle-align:top;width: 50%;}
+#left #neir{padding-top: 20px;padding-bottom: 20px;}
+#title h1{font-size: 1.875em;font-weight: normal;margin-bottom: 9px;}
+#title p{font-size: 0.875em;color: #999999;}
+#neir #zi{font-size: 1.125em;line-height: 1.8;padding-top: 20px;padding-bottom: 20px;height: auto;}
+#neir #sszi p{font-size: 1.125em;line-height: 1.8;padding:10px 0 10px 0;border-bottom:1px dotted #ccc;}
+#zi p{margin-top: 0.5em;margin-bottom: 0.5em;}
+#zi img{border: 1px solid #9EAA99; border-radius: 3px; box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);}
+#neir #sx{font-size: 1.125em;border-top-width: 1px;border-right-width: 0px;border-bottom-width: 1px;border-left-width: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #dddddd;border-right-color: #dddddd;border-bottom-color: #dddddd;border-left-color: #dddddd;margin-bottom: 10px;padding-top: 10px;padding-bottom: 10px;}
+#sx ul li{float: left;width: 50%;}
+#sx ul .r{text-align: right;}
+#neir #guan{margin-top: 15px;margin-bottom: 15px;}
+#guan ul li{line-height: 20px;padding-top: 7px;padding-bottom: 7px;}
+#guan ul li span{color: #999999;float: right;}
+#rigth dl #tbCalendar{width: 100%;line-height: 30px;}
+#tbCalendar td{text-align: center;}
+#ss #edtSearch{float: left;height: 28px;width: 70%;border: 1px solid #dddddd;padding-left: 5px;border-radius: 3px;line-height: 28px;}
+#ss #btnPost{width: 20%;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;float: right;height: 30px;color: #FFFFFF;border-radius: 3px;}
+@media screen and (max-width: 600px){#info{width: 100%;padding: 0px;margin: 0px;}
+#info #left{width: 96%;padding-top: 10px;padding-right: 2%;padding-left: 2%;clear: left;overflow: hidden;}
+#post dd i img{width: 80px;height: 60px;float: left;margin-right: 10px;padding: 2px;border: 1px solid #dddddd;clear: left;}
+#post dd p{font-size: 1em;line-height: 22px;overflow: hidden;height: 66px;}
+#post small{font-size: 0.875em;color: #999999;white-space: normal;}
+#info #rigth{width: 96%;margin-left: 2%;margin-right: 2%;clear: right;overflow: hidden;}
+#sx ul li{float: left;width: 100%;margin-top: 8px;margin-bottom: 8px;}
+#sx ul .r{text-align: left;}
+#rigth #divTags dd ul li{margin-bottom: 5px;}}
+#foot{font-size: 1em;line-height: 30px;background-color: #FFFFFF;text-align: center;width: 96%;padding-top: 20px;padding-bottom: 20px;padding-right: 2%;padding-left: 2%;border-top-width: 1px;border-top-style: solid;border-top-color: #9B9DA7;}
+#logo404{background-color: #FFFFFF;background-image: url(../include/logo.png);background-repeat: no-repeat;background-position: center center;padding-top: 60px;padding-bottom: 60px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #9EAA99;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);}
+#cw404{width: 720px; margin: 20px auto;}
+#cw404 h1{font-size: 18px; line-height: 60px; font-weight: normal; text-align: center;}
+#cw404 .kuang{font-size: 14px;border: 1px solid #9EAA99;border-radius: 3px;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);padding: 20px;background-color: #FFFFFF;}

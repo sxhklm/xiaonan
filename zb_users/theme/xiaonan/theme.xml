@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>xiaonan</id>
+<name>小熙博客主题php版</name>
+<url>http://www.fengxiaoxi.net/post/7.html</url>
+<note>天兴工作室 自适应zbp主题</note>
+<description>天兴工作室：zblog模板，zblog主题，zblog仿站，zblog主题模板开发</description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>天兴工作室</name>
+  <email>admin@txcstx.cn</email>
+  <url>http://www.txcstx.cn</url>
+</author>
+<source>
+  <name>小熙博客</name>
+  <email>admin@txcstx.cn</email>
+  <url>http://www.fengxiaoxi.net</url>
+</source>
+<adapted>140220</adapted>
+<version>2.4</version>
+<pubdate>2014-01-04</pubdate>
+<modified>2015-10-16</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme><!-- app_host:http://zbp.pjblog.wang/zbp/;app_email:admin@txcstx.cn;app_user:天兴工作室; -->
